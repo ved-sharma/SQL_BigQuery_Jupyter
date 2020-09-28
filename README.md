@@ -1,8 +1,10 @@
 # Running SQL queries on BigQuery data
 
-We will be running SQL queries on BigQuery data from inside a Jupyter notebook.
+We will be running SQL queries on BigQuery data from a Jupyter notebook.
 
-[Connect Jupyter notebook to BigQuery API](https://github.com/ved-sharma/BigQuery_Jupyter_notebook_setup), if you have not done that already.
+First [Connect Jupyter notebook to BigQuery API](https://github.com/ved-sharma/BigQuery_Jupyter_notebook_setup), if you haven't already done that.
+
+I took Kaggle course - [Intro to SQL](https://www.kaggle.com/learn/intro-to-sql). Following example is one of the exercises in that course.
 
 [Stack Overflow](https://stackoverflow.com/) is a popular question and answer site for technical questions. Their data is publicly available through BigQuery API.
 
@@ -53,20 +55,7 @@ client.list_rows(questions_table, max_results=5).to_dataframe()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
+<table border="0" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th></th>
