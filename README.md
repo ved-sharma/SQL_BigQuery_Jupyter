@@ -1,6 +1,4 @@
-# Running SQL queries on BigQuery data
-
-We will be running SQL queries on BigQuery data from a Jupyter notebook.
+# Running SQL queries on BigQuery data from a Jupyter notebook
 
 First [Connect Jupyter notebook to BigQuery API](https://github.com/ved-sharma/BigQuery_Jupyter_notebook_setup), if you haven't already done that.
 
